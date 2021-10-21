@@ -1,0 +1,10 @@
+DEPLOYMENT_NAME: "spring-boot-deployment"
+REPLICAS: "1"
+CONTAINER_NAME: "spring-boot-deployment"
+IMAGE_REPOSITORY: "azmathasan92/hellospringboot"
+IMAGE_TAG: "latest"
+CONTAINER_PORT: "8080"
+SERVICE_NAME: "spring-boot-service-node-port"
+SERVICE_PORT: "8080"
+NODE_PORT: "31000"
+
